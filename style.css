@@ -528,3 +528,18 @@ iframe{
     }
 }
 
+@media (max-width: 900px) {
+    .navbar {
+        display: none;
+    }
+	h1{
+		position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+	}
+	
+}
+
+
+
