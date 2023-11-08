@@ -515,13 +515,13 @@ iframe{
 
 @media screen and (max-width: 553px){
 	#text{
-		font-size: 15px;
+		font-size: 14px;
 	}
 }
 
 @media screen and (min-width: 320px) and (max-width: 553px){
 	#text{
-		font-size: 18px;
+		font-size: 13px;
 	}
 	iframe{
 		max-width: 90%;
@@ -533,7 +533,7 @@ iframe{
 
 @media screen and (min-width: 790px) and (max-width: 1200px){
 	#text{
-		font-size: 18px;
+		font-size: 13px;
 	}
 }
 
@@ -556,5 +556,79 @@ iframe{
 	
 }
 
+/* Style the share button container */
+.share-buttons {
+	display: flex; /* Use flexbox to create a horizontal layout */
+	justify-content:center; /* Center-align the buttons horizontally */
+	flex-wrap: wrap;
+	margin-top: -5px;
+  }
+  
+  /* Style the individual share buttons */
+  .share-buttons a {
+	text-decoration: none;
+	background-color: #1673a8;
+	color: #fff;
+	padding: 10px 15px;
+	margin: 5px;
+	border-radius: 4px;
+	font-weight: bold;
+	transition: background-color 0.3s;
+	margin-right: 10px; /* Add space between the buttons */
+  }
+  
+  /* Hover effect for the buttons */
+  .share-buttons a:hover {
+	background-color: #005d9e;
+  }
+  
+  /* Style the social media icons (using Font Awesome icons) */
+  .share-buttons i {
+	font-size: 18px;
+	margin-right: 5px;
+  }
+  
+  /* Adjust the button size for smaller screens */
+  @media screen and (max-width: 768px) {
+	.share-buttons a {
+	  padding: 8px 12px;
+	}
+  }
+
+  /* Style the "Copy Link" button */
+#copy-link-button {
+	background-color: #1673a8; /* Button background color */
+	color: #fff; /* Button text color */
+	padding: 10px 15px; /* Adjust padding to your preference */
+	border: 1px solid black;
+	margin: 5px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for the button */
+  #copy-link-button:hover {
+	background-color: #005d9e; /* Hover background color */
+  }
+  
+  /* Center the button in its container (adjust as needed) */
+  #copy-link-button {
+	display: block;
+	margin: 0 auto;
+  }
+  
+  /* Optional: Add some margin to the button */
+  #copy-link-button {
+	margin-top:-1px;
+  }
+  
+  /* Optional: Remove the underlines on hover for link-style button */
+  #copy-link-button:hover {
+	text-decoration: none;
+  }
+
+  
 
 
