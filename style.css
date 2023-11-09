@@ -42,7 +42,7 @@ body{
 	text-align: center;
 	padding: 0px 16px;
 	text-decoration: none;
-	margin: 13px;
+	margin: 12px;
 	font-size:larger;
 }
 
@@ -353,6 +353,15 @@ h6 { font-size: 16px;}
 	padding-bottom: 50px;
 }
 
+.post-wrapper1{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 320px);
+	gap:20px;
+	justify-content: center;
+	padding-bottom: 50px;
+	width:100%;
+}
+
 .post{
 	border:1px solid var(--borderColor);
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
@@ -384,6 +393,7 @@ h6 { font-size: 16px;}
 .post-preview:hover{
 	background-color: rgb(181, 194, 194);
 }
+
 .post-title{
 	color:black;
 	margin: 0;
@@ -438,7 +448,7 @@ h6 { font-size: 16px;}
 	border:none;
 }
 
-#first{
+.first{
 	display: block;
 	max-width: 600px;
 	margin: 0 auto;
@@ -452,8 +462,12 @@ h6 { font-size: 16px;}
 
 iframe{
 	background-color: rgb(77, 70, 70);
-	width: 150%; /* Make the form container 100% of the parent container's width */
+	width: 101%; /* Make the form container 100% of the parent container's width */
     max-width: 800px; /* Limit the maximum width of the form for readability */ 
+}
+
+iframe:hover{
+	background-color:rgb(181, 194, 194);
 }
 
 #second{
@@ -515,7 +529,8 @@ iframe{
 
 @media screen and (max-width: 553px){
 	#text{
-		font-size: 14px;
+		font-size: 15px;
+		
 	}
 }
 
@@ -579,7 +594,8 @@ iframe{
   
   /* Hover effect for the buttons */
   .share-buttons a:hover {
-	background-color: #005d9e;
+	background-color: rgb(83, 83, 187);
+	transform: scale(1.1);
   }
   
   /* Style the social media icons (using Font Awesome icons) */
@@ -610,7 +626,8 @@ iframe{
   
   /* Hover effect for the button */
   #copy-link-button:hover {
-	background-color: #005d9e; /* Hover background color */
+	background-color: rgb(83, 83, 187);;
+	transform: scale(1.1); 
   }
   
   /* Center the button in its container (adjust as needed) */
