@@ -6,6 +6,8 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
 
+	<script src="https://kit.fontawesome.com/2fe1acf002.js"></script>
+
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
@@ -16,18 +18,24 @@
 </head>
 <body>
 
-	<div class="navbar">
-		<a href="#">Home</a></li>
-		<a href="index.html#more">Discover Me</a>
-		<a href="index.html#projects">Featured Projects</a>
-		<a href="index.html#achievement">Milestones</a>
-		<a href="index.html#certifications">Certified Skills</a>
-		<a href="index.html#contact">LinkedIn Spotlights</a>
-		<a href="index.html#interests">Outside Of Work</a>
-		<a href="index.html#wordsFromMe">Closing Remarks</a>
-	</div>
+	<nav>
+		<div class="logo">Engineer's Palette</div>
+		<input type="checkbox" id="click">
+		<label for="click" class="menubtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<ul>
+			<li><a class="active" href="#">Home</a></li>
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#achievement">Milestones</a></li>
+			<li><a href="index.html#certifications">Certifications</a></li>
+			<li><a href="index.html#contact">Publications</a></li>
+			<li><a href="index.html#interests">Interests</a></li>
+			<li><a href="index.html#wordsFromMe">Feedback</a></li>
+		</ul>
+	</nav>
 
-	<section class="s1">
+	<section class="s1" id="home">
 		<div class="main-container">
 			<div class="greeting-wrapper">
 				<h1 style="color: black">Hi👋, I'm Shubham Chouksey</h1>
@@ -44,7 +52,7 @@
 						</div>
 					</a>
 					<ul id="navigation">
-						<li><b>Engineer's Palette</b></li>
+						<li><b>Welcome to My World</b></li>
 
 					</ul>
 					
@@ -133,7 +141,7 @@
 	</section>
 
 	<a name="projects"></a>
-	<section class="s1" style="background-color: #a09797;">
+	<section class="s1" id="project" style="background-color: #a09797;">
 		<div class="main-container">
 			<h3 style="text-align: center;color: black">Some Of My Past Projects</h3>
 
@@ -190,7 +198,7 @@
 	</section>
 
 	<a name="achievement"></a>
-	<section class="s1" style="background-color: #a09797;">
+	<section class="s1" id="achievement" style="background-color: #a09797;">
 		<div class="main-container">
 			<h3 style="text-align: center;color: black">Coding Journey Achievements</h3>
 
@@ -232,7 +240,7 @@
 	</section>
 
 	<a name="certifications"></a>
-	<section class="s1" style="background-color: #a09797;">
+	<section class="s1" id="certification" style="background-color: #a09797;">
 		<div class="main-container">
 			<h3 style="text-align: center;color: black">Some Of My Certifications</h3>
 
@@ -281,7 +289,7 @@
 	</section>
 
 	<a name="contact"></a>
-	<section class="s1" style="background-color: #a09797;>
+	<section class="s1" id="publication" style="background-color: #a09797;>
 		<div class="main-container">
 			<h3 style="text-align: center; color: black;">My Recent Posts On LinkedIn</h3>
 			<div class="post-wrapper1">
@@ -299,7 +307,7 @@
 	</section>
 
 	<a name="interests"></a>
-	<section class="s1" style="background-color: #a09797;">
+	<section class="s1" id="interest" style="background-color: #a09797;">
 		<div class="main-container">
 			<h3 style="text-align: center;color: black">I Am More Than Just A Software Engineer</h3>
 
@@ -345,7 +353,7 @@
 	</section>
 
 	<a name="wordsFromMe"></a>
-	<section class="s1">
+	<section class="s1" id="feedback">
 		<div class="main-container">
 			<h3 style="text-align: center;color: black">Thanks For Visiting😊</h3>
 
