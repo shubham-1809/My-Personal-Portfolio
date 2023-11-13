@@ -429,9 +429,13 @@ h6 { font-size: 16px;}
 	transition: transform 0.5s;
 }
 
-.enlarge:hover {
+.must_enlarge:hover {
 	transform: scale(1.1); /* Increase the size by 10% on hover */
   }
+  
+.enlarge:hover {
+	transform: scale(1.1); /* Increase the size by 10% on hover */
+  }  
 
 .thumbnail{
 	display: block;
@@ -592,6 +596,12 @@ iframe:hover{
 
 }
 
+@media(max-width: 450px){
+	.enlarge:hover{
+		transform:none;
+	}
+}
+
 @media screen and (max-width: 553px){
 	#text{
 		font-size: 15px;
@@ -711,5 +721,4 @@ iframe:hover{
   }
 
   
-
 
