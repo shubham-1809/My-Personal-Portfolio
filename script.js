@@ -23,5 +23,5 @@ document.getElementById('copy-link-button').addEventListener('click', function()
 });
 
 document.getElementById('clicked').addEventListener('click', function(){
-  alert('Hey man! You are viewing it live...hahaha');
+  alert('Hey man! You are viewing it live...Hahaha');
 })
