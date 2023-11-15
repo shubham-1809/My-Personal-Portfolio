@@ -64,9 +64,8 @@ nav ul li a{
 	padding: 8px 10px;
 	border-radius: 60px;
 	transition: all .3s ease;
-}
-nav ul li a:hover
-/*nav a.active*/{
+} 
+nav ul li a:hover{
 	color: #1b1b1b;
 	background: #fff;
 }
@@ -107,8 +106,7 @@ nav .menubtn i{
 		font-size: 20px;
 		display: block;
 	}
-	nav ul li a:hover,
-	nav ul li a.active{
+	nav ul li a:hover{
 		color: cyan;
 		background: none;
 	}
