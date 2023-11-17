@@ -1,7 +1,9 @@
 <h2>Engineer's Palette</h2>
 
 <p>Welcome to my portfolio website! This website showcases my skills, projects and experiences in the field of Software Engineering. Feel free to explore and learn more about me.</p>
-![readme_image](https://github.com/shubham-1809/My-Personal-Portfolio/assets/135697559/4f504ca0-d3ed-4b5e-9395-9a27cc886e79)
+
+![readme_image](https://github.com/shubham-1809/My-Personal-Portfolio/assets/135697559/21b16630-207b-477e-876b-0ea83ee605fd)
+
 <h3>Table of Contents</h3>
 <ul>
   <li>Demo</li>
@@ -21,6 +23,9 @@
   <li>Built a feedback feature, garnering feedback from 10+ users, resulting in 20% enhancement of the website features and functionality.</li>
   <li> Assisted 5 individuals in developing their portfolios, leveraging my own portfolio as a practical resource.</li>
 </ul>
+
+![readme2](https://github.com/shubham-1809/My-Personal-Portfolio/assets/135697559/27e395db-c42f-4f7f-8284-44d68b649d38)
+
 <h3>Technologies Used</h3>
 <ul>
   <li>HTML</li>
