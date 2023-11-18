@@ -22,9 +22,19 @@
   <li> Enhanced portfolio visibility by a sharing feature, leading to 15% increase in number of unique visitors.</li>
   <li>Built a feedback feature, garnering feedback from 10+ users, resulting in 20% enhancement of the website features and functionality.</li>
   <li> Assisted 5 individuals in developing their portfolios, leveraging my own portfolio as a practical resource.</li>
+  <li>Below screenshot demonstrates the sharing and feedback capabilities.</li>
 </ul>
 
-![readme2](https://github.com/shubham-1809/My-Personal-Portfolio/assets/135697559/27e395db-c42f-4f7f-8284-44d68b649d38)
+![readme2](https://github.com/shubham-1809/My-Personal-Portfolio/assets/135697559/27e395db-c42f-4f7f-8284-44d68b649d38) <br>
+
+<ul>
+  <li>Below screenshots demonstrating how the portfolio looks in tablets and mobile devices with a responsive navbar having menu and close button icons.</li>
+</ul>
+
+![tablet_readme](https://github.com/shubham-1809/My-Personal-Portfolio/assets/135697559/452feb13-612c-4134-87d6-051d768a61a5)
+![mobile_device_readme](https://github.com/shubham-1809/My-Personal-Portfolio/assets/135697559/d16fc1da-4c6c-4f6f-8cfe-6e1ba83223fa)
+![mobile_navbar_readme](https://github.com/shubham-1809/My-Personal-Portfolio/assets/135697559/7ef458f2-d663-4d5d-aac5-89678edf52c1)
+
 
 <h3>Technologies Used</h3>
 <ul>
