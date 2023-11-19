@@ -12,6 +12,7 @@
   <li>Installation</li>
   <li>Usage</li>
   <li>Contributions</li>
+  <li>License</li>
 </ul>
 
 <h3>Demo</h3>
