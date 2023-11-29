@@ -54,3 +54,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const body = document.body;
+  const navbarToggle = document.getElementById('click');
+
+  navbarToggle.addEventListener('change', function () {
+      body.classList.toggle('no-scroll', click.checked);
+  });
+});
+
