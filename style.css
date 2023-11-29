@@ -83,6 +83,9 @@ nav .menubtn i{
 #click{
 	display: none;
 }
+body.no-scroll {
+    overflow: hidden;
+}
 @media (max-width: 1150px){
 	nav .menubtn i{
 		display: block;
