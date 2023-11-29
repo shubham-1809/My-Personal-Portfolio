@@ -47,6 +47,7 @@ nav .logo{
 }
 nav .logo:hover{
 	transform: scale(.9);
+	color: cyan;
 }
 nav ul{
 	display: flex;
@@ -674,20 +675,49 @@ iframe:hover{
 	flex-wrap: wrap;
 	margin-top: -5px;
   }
-  
-  /* Style the individual share buttons */
-  .share-buttons a {
+
+  #facebook{
 	text-decoration: none;
-	background-color: #1673a8;
+	background-color: #084b99;
 	color: #fff;
 	padding: 10px 15px;
 	margin: 5px;
 	border-radius:60px;
 	font-weight: bold;
 	transition: background-color 0.3s;
-	margin-right: 10px; /* Add space between the buttons */
   }
-  
+  #linkedin{
+	text-decoration: none;
+	background-color: #2789c2;
+	color: #fff;
+	padding: 10px 15px;
+	margin: 5px;
+	border-radius:60px;
+	font-weight: bold;
+	transition: background-color 0.3s;
+	width: 46%;
+  }
+  #twitter{
+	text-decoration: none;
+	background-color: rgb(194, 50, 50);
+	color: #fff;
+	padding: 10px 15px;
+	margin: 5px;
+	border-radius:60px;
+	font-weight: bold;
+	transition: background-color 0.3s;
+  }
+  #github{
+	text-decoration: none;
+	background-color: black;
+	color: #fff;
+	padding: 10px 15px;
+	margin: 5px;
+	border-radius:60px;
+	font-weight: bold;
+	transition: background-color 0.3s;
+	width: 46%;
+  }
   /* Hover effect for the buttons */
   .share-buttons a:hover {
 	background-color: rgb(83, 83, 187);
@@ -709,7 +739,7 @@ iframe:hover{
 
   /* Style the "Copy Link" button */
 #copy-link-button {
-	background-color: #1673a8; /* Button background color */
+	background-color: #09a31dd0;
 	color: #fff; /* Button text color */
 	padding: 10px 15px; /* Adjust padding to your preference */
 	border: 1px solid black;
@@ -718,12 +748,7 @@ iframe:hover{
 	cursor: pointer;
 	font-weight: bold;
 	transition: background-color 0.3s;
-  }
-  
-  /* Hover effect for the button */
-  #copy-link-button:hover {
-	background-color: rgb(83, 83, 187);;
-	transform: scale(1.1); 
+	width: 95%;
   }
   
   /* Center the button in its container (adjust as needed) */
@@ -740,6 +765,7 @@ iframe:hover{
   /* Optional: Remove the underlines on hover for link-style button */
   #copy-link-button:hover {
 	text-decoration: none;
+	background-color: #36c449d0;
   }
 
   
