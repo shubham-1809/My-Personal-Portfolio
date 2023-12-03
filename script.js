@@ -54,13 +54,31 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-/*
-document.addEventListener("DOMContentLoaded", function () {
-  const body = document.body;
-  const navbarToggle = document.getElementById('click');
 
-  navbarToggle.addEventListener('change', function () {
-      body.classList.toggle('no-scroll', click.checked);
+document.addEventListener('DOMContentLoaded', function () {
+  var navToggle = document.getElementById('click');
+
+  function closeMenu() {
+      navToggle.checked = false;
+      toggleNavbar();
+  }
+
+  function toggleNavbar() {
+      var body = document.body;
+      if (navToggle.checked) {
+          // Navbar is open
+          body.style.overflow = 'hidden'; // Disable scrolling
+      } else {
+          // Navbar is closed
+          body.style.overflow = 'auto'; // Enable scrolling
+      }
+  }
+
+  navToggle.addEventListener('change', toggleNavbar);
+
+  // Close navbar when a nav link is clicked
+  var navLinks = document.querySelectorAll('nav ul a');
+  navLinks.forEach(function (link) {
+      link.addEventListener('click', closeMenu);
   });
-});*/
-
+});
