@@ -83,10 +83,6 @@ nav .menubtn i{
 #click{
 	display: none;
 }
-/*
-body.no-scroll {
-    overflow: hidden;
-}*/
 @media (max-width: 1150px){
 	nav .menubtn i{
 		display: block;
@@ -649,6 +645,7 @@ iframe:hover{
 	border-radius:60px;
 	font-weight: bold;
 	transition: background-color 0.3s;
+	text-align: center;
   }
   #linkedin{
 	text-decoration: none;
@@ -660,6 +657,7 @@ iframe:hover{
 	font-weight: bold;
 	transition: background-color 0.3s;
 	width: 46%;
+	text-align: center;
   }
   #twitter{
 	text-decoration: none;
@@ -670,6 +668,7 @@ iframe:hover{
 	border-radius:60px;
 	font-weight: bold;
 	transition: background-color 0.3s;
+	text-align: center;
   }
   #github{
 	text-decoration: none;
@@ -681,6 +680,7 @@ iframe:hover{
 	font-weight: bold;
 	transition: background-color 0.3s;
 	width: 46%;
+	text-align: center;
   }
   /* Hover effect for the buttons */
   .share-buttons a:hover {
