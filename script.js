@@ -22,10 +22,6 @@ document.getElementById('copy-link-button').addEventListener('click', function()
   alert('Link copied to clipboard');
 });
 
-document.getElementById('clicked').addEventListener('click', function(){
-  alert('Hey man! You are viewing it live...Hahaha');
-})
-
 function closeMenu() {
   const checkbox = document.getElementById('click');
   checkbox.checked = false;

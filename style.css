@@ -137,6 +137,12 @@ nav .menubtn i{
 		font-size: 20px;
 	}
 }
+/*
+@media (min-width: 1151px) and (max-width: 1400px){
+	nav ul li{
+		margin: 0px 6px;
+	}
+}*/
 
 html, body{
 	padding: 0;
